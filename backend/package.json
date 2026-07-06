@@ -1,0 +1,23 @@
+{
+  "name": "ai-recruitment-assistant-backend",
+  "version": "1.0.0",
+  "description": "Backend for AI Recruitment Assistant Dashboard",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "@cascadeflow/core": "^1.1.0",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.1",
+    "nodemailer": "^9.0.3",
+    "passport": "^0.6.0",
+    "passport-github2": "^0.1.12"
+  }
+}
